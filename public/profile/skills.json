@@ -1,37 +1,65 @@
 {
-    "intro": "I love to learn new things and experiment with new technologies.\nThese are some of the major languages, technologies, tools and platforms I have worked with:",
-    "skills": [{
-     
+    "intro": "These are most of the major languages, technologies, tools and platforms I have used before sorted by how often I use them:",
+    "skills": [
+        {
             "title": "Languages & Databases",
             "items" : [
-     
                 {
-                    "icon": "images/skills/java.png",
-                    "title": "Java"
-                },
-                {
-                    "icon": "images/skills/php.png",
-                    "title": "PHP"
-                },
-                {
-                    "icon": "images/skills/js.png",
-                    "title": "JavaScript"
+                    "icon": "images/skills/c-plus-plus.svg",
+                    "title": "C++/C"
                 },
                 {
                     "icon": "images/skills/python.png",
                     "title": "Python"
                 },
                 {
-                    "icon": "images/skills/mysql.png",
-                    "title": "MySQL"
+                    "icon": "images/skills/c-sharp.png",
+                    "title": "C#"
+                },
+                {
+                    "icon": "images/skills/html.png",
+                    "title": "Html"
+                },
+                {
+                    "icon": "images/skills/js.png",
+                    "title": "JavaScript"
+                },
+                {
+                    "icon": "images/skills/json.png",
+                    "title": "json"
+                },
+                {
+                    "icon": "images/skills/csv.png",
+                    "title": "csv"
+                },
+                {
+                    "icon": "images/skills/rust.png",
+                    "title": "Rust"
                 }
-        ]},
+            ]
+        },
         {
             "title": "Frameworks & Technologies",
             "items" : [
                 {
-                    "icon": "images/skills/android_new.png",
-                    "title": "Android"
+                    "icon": "images/skills/opengl.png",
+                    "title": "OpenGl"
+                },
+                {
+                    "icon": "images/skills/numpy.png",
+                    "title": "NumPy"
+                },
+                {
+                    "icon": "images/skills/opencv.png",
+                    "title": "open computer vision"
+                },
+                {
+                    "icon": "images/skills/torch.png",
+                    "title": "PyTorch"
+                },
+                {
+                    "icon": "images/skills/tensorflow.png",
+                    "title": "Tensorflow"
                 },
                 {
                     "icon": "images/skills/react.png",
@@ -47,12 +75,40 @@
             "title" : "Tools & Platforms",
             "items": [
                 {
-                    "icon": "images/skills/android-studio.png",
-                    "title": "Android Studio"
-                },
-                {
                     "icon": "images/skills/git.png",
                     "title": "Git"
+                },
+                {
+                    "icon": "images/skills/gcc.png",
+                    "title": "Gcc"
+                },
+                {
+                    "icon": "images/skills/valgrind.png",
+                    "title": "Valgrind"
+                },
+                {
+                    "icon": "images/skills/visual_studio.png",
+                    "title": "Visual Studio"
+                },
+                {
+                    "icon": "images/skills/cmake.png",
+                    "title": "Cmake"
+                },
+                {
+                    "icon": "images/skills/arduino.png",
+                    "title": "Arduino"
+                },
+                {
+                    "icon": "images/skills/espressif.png",
+                    "title": "Espressif"
+                },
+                {
+                    "icon": "images/skills/visual_studio_code.png",
+                    "title": "Visual Studio Code"
+                },
+                {
+                    "icon": "images/skills/clang.png",
+                    "title": "Clang"
                 },
                 {
                     "icon": "images/skills/docker.png",
