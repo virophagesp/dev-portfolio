@@ -1,5 +1,5 @@
 {
-    "intro": "These are most of the major languages, technologies, tools and platforms I have used before sorted by how often I use them:",
+    "intro": "These are most of the major languages, technologies, tools and platforms I have used before, I sorted them based on how often I use them or how long it has been since I used them:",
     "skills": [
         {
             "title": "Languages & Databases",
@@ -101,6 +101,10 @@
                 {
                     "icon": "images/skills/espressif.png",
                     "title": "Espressif"
+                },
+                {
+                    "icon": "images/skills/rust.png",
+                    "title": "Rustc"
                 },
                 {
                     "icon": "images/skills/visual_studio_code.png",
