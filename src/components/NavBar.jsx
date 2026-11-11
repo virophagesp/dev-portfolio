@@ -3,7 +3,6 @@ import React, { useEffect, useState, useContext } from 'react';
 import { NavLink } from 'react-router-dom';
 import styled, { ThemeContext } from 'styled-components';
 import endpoints from '../constants/endpoints';
-import ThemeToggler from './ThemeToggler';
 
 const styles = {
   logoStyle: {
@@ -105,9 +104,6 @@ const NavBar = () => {
                 </InternalNavLink>
               )))}
           </Nav>
-          <ThemeToggler
-            onClick={() => setExpanded(false)}
-          />
         </Navbar.Collapse>
       </Container>
     </Navbar>
