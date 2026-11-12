@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import ReactMarkdown from 'react-markdown';
 
 const ProjectCard = ({ project, featured = false }) => {
@@ -49,20 +48,6 @@ const ProjectCard = ({ project, featured = false }) => {
       </div>
     </article>
   );
-};
-
-ProjectCard.propTypes = {
-  featured: PropTypes.bool,
-  project: PropTypes.shape({
-    title: PropTypes.string.isRequired,
-    bodyText: PropTypes.string.isRequired,
-    image: PropTypes.string,
-    links: PropTypes.arrayOf(PropTypes.shape({
-      text: PropTypes.string.isRequired,
-      href: PropTypes.string.isRequired,
-    })),
-    tags: PropTypes.arrayOf(PropTypes.string),
-  }).isRequired,
 };
 
 export default ProjectCard;

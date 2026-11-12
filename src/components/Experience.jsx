@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
-import PropTypes from 'prop-types';
 import { Fade } from 'react-awesome-reveal';
 import Header from './Header';
 import endpoints from '../constants/endpoints';
@@ -56,9 +55,5 @@ function Experience(props) {
     </>
   );
 }
-
-Experience.propTypes = {
-  header: PropTypes.string.isRequired,
-};
 
 export default Experience;

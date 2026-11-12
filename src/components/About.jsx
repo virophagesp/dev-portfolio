@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
-import PropTypes from 'prop-types';
 import { Fade } from 'react-awesome-reveal';
 import Header from './Header';
 import endpoints from '../constants/endpoints';
@@ -42,9 +41,5 @@ function About(props) {
     </>
   );
 }
-
-About.propTypes = {
-  header: PropTypes.string.isRequired,
-};
 
 export default About;

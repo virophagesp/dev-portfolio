@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import { Fade } from 'react-awesome-reveal';
-import PropTypes from 'prop-types';
 import Header from './Header';
 import endpoints from '../constants/endpoints';
 import ProjectCard from './projects/ProjectCard';
@@ -55,10 +54,6 @@ const Projects = (props) => {
       ) : <FallbackSpinner /> }
     </>
   );
-};
-
-Projects.propTypes = {
-  header: PropTypes.string.isRequired,
 };
 
 export default Projects;

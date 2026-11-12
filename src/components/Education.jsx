@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import { Fade } from 'react-awesome-reveal';
-import PropTypes from 'prop-types';
 import endpoints from '../constants/endpoints';
 import Header from './Header';
 import FallbackSpinner from './FallbackSpinner';
@@ -52,9 +51,5 @@ function Education(props) {
     </>
   );
 }
-
-Education.propTypes = {
-  header: PropTypes.string.isRequired,
-};
 
 export default Education;
