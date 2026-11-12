@@ -1,26 +1,22 @@
-// Bento, dark-first palette: a neutral page/surface ramp + a single indigo
-// accent (with a violet partner used only for gradients). Existing keys are
-// preserved so every component keeps working; values are retuned for the look.
-
 export const darkTheme = {
-  background: '#09090b',
-  color: '#f4f4f5',
-  textMuted: '#a1a1aa',
-  accentColor: '#818cf8',
-  accentColor2: '#c084fc',
+  background: '#090b09',
+  color: '#f4f5f4',
+  textMuted: '#a1aaa1',
+  accentColor: '#81f88c',
+  accentColor2: '#c0fc84',
   accentSoft: 'rgba(129, 140, 248, 0.14)',
-  glow1: 'rgba(99, 102, 241, 0.18)',
-  glow2: 'rgba(168, 85, 247, 0.12)',
+  glow1: 'rgba(99, 241, 102, 0.18)',
+  glow2: 'rgba(168, 247, 85, 0.12)',
   chronoTheme: {
     cardBgColor: '#141417',
-    cardForeColor: '#f4f4f5',
+    cardForeColor: '#f4f5f4',
     titleColor: 'black',
   },
-  timelineLineColor: '#27272a',
-  cardBackground: '#141417',
-  cardFooterBackground: '#1b1b1f',
+  timelineLineColor: '#272a27',
+  cardBackground: '#141714',
+  cardFooterBackground: '#1b1f1b',
   cardBorderColor: 'rgba(255, 255, 255, 0.08)',
-  navbarBackground: 'rgba(9, 9, 11, 0.62)',
+  navbarBackground: 'rgba(9, 11, 9, 0.62)',
   shadowSm: '0 1px 2px rgba(0, 0, 0, 0.40), 0 4px 16px rgba(0, 0, 0, 0.40)',
   shadowMd: '0 8px 24px rgba(0, 0, 0, 0.55), 0 16px 48px rgba(0, 0, 0, 0.60)',
   navbarTheme: {
@@ -30,5 +26,5 @@ export const darkTheme = {
   },
   bsPrimaryVariant: 'dark',
   bsSecondaryVariant: 'light',
-  socialIconBgColor: '#f4f4f5',
+  socialIconBgColor: '#f4f5f4',
 };
