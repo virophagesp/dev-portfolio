@@ -130,7 +130,6 @@
 /* NB: named span-* (not col-*) to avoid colliding with Bootstrap's .col-N grid
    classes, which set a width % and would shrink the tiles. */
 .span-2 { grid-column: span 2; }
-.span-3 { grid-column: span 3; }
 .span-4 { grid-column: span 4; }
 .span-6 { grid-column: span 6; }
 .rspan-2 { grid-row: span 2; }
@@ -221,24 +220,6 @@
   height: 3px;
   border-radius: 2px;
   background: var(--gradient);
-}
-
-/* ---- Typewriter ---------------------------------------------------------- */
-.Typewriter {
-  display: inline-block;
-}
-
-.Typewriter__wrapper {
-  font-family: var(--font-mono);
-  font-size: clamp(1rem, 3vw, 1.45rem);
-  font-weight: 500;
-  color: var(--text);
-}
-
-.Typewriter__cursor {
-  font-size: clamp(1rem, 3vw, 1.45rem);
-  font-weight: 500;
-  color: var(--accent);
 }
 
 .social {
