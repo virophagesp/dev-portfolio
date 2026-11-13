@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import { Fade } from 'react-awesome-reveal';
 import Header from './Header';
-import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
 import '../css/skills.css';
 
@@ -11,7 +10,7 @@ function Skills(props) {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch(endpoints.skills, {
+    fetch('profile/skills.json', {
       method: 'GET',
     })
       .then((res) => res.json())

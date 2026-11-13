@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
 import { Fade } from 'react-awesome-reveal';
 import Header from './Header';
-import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
 import '../css/about.css';
 
@@ -11,7 +10,7 @@ function About(props) {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch(endpoints.about, {
+    fetch('profile/about.json', {
       method: 'GET',
     })
       .then((res) => res.json())

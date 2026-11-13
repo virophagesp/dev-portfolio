@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import Typewriter from 'typewriter-effect';
 import { Fade } from 'react-awesome-reveal';
 import { Link } from 'react-router-dom';
-import endpoints from '../constants/endpoints';
 import Social from './Social';
 import FallbackSpinner from './FallbackSpinner';
 import '../css/home.css';
@@ -22,7 +21,7 @@ function Home() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch(endpoints.home, {
+    fetch('profile/home.json', {
       method: 'GET',
     })
       .then((res) => res.json())

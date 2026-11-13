@@ -2,7 +2,6 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 import { useEffect, useState, useContext } from 'react';
 import { NavLink } from 'react-router-dom';
 import styled, { ThemeContext } from 'styled-components';
-import endpoints from '../constants/endpoints';
 
 const styles = {
   logoStyle: {
@@ -40,7 +39,7 @@ const NavBar = () => {
   const [expanded, setExpanded] = useState(false);
 
   useEffect(() => {
-    fetch(endpoints.navbar, {
+    fetch('profile/navbar.json', {
       method: 'GET',
     })
       .then((res) => res.json())

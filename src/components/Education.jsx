@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import { Fade } from 'react-awesome-reveal';
-import endpoints from '../constants/endpoints';
 import Header from './Header';
 import FallbackSpinner from './FallbackSpinner';
 import '../css/timeline.css';
@@ -10,7 +9,7 @@ function Education(props) {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch(endpoints.education, {
+    fetch('profile/education.json', {
       method: 'GET',
     })
       .then((res) => res.json())

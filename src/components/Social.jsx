@@ -1,7 +1,6 @@
 import { useEffect, useState, useContext } from 'react';
 import { SocialIcon } from 'react-social-icons';
 import { ThemeContext } from 'styled-components';
-import endpoints from '../constants/endpoints';
 
 const styles = {
   iconStyle: {
@@ -16,7 +15,7 @@ function Social() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch(endpoints.social, {
+    fetch('profile/social.json', {
       method: 'GET',
     })
       .then((res) => res.json())

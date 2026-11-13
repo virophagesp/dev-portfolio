@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Fade } from 'react-awesome-reveal';
 import Header from './Header';
-import endpoints from '../constants/endpoints';
 import ProjectCard from './projects/ProjectCard';
 import FallbackSpinner from './FallbackSpinner';
 import '../css/projects.css';
@@ -12,7 +11,7 @@ const Projects = (props) => {
   const [showMore, setShowMore] = useState(false);
 
   useEffect(() => {
-    fetch(endpoints.projects, {
+    fetch('profile/projects.json', {
       method: 'GET',
     })
       .then((res) => res.json())

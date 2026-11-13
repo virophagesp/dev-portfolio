@@ -3,13 +3,12 @@ import { Routes, Route } from 'react-router-dom';
 import FallbackSpinner from './components/FallbackSpinner';
 import NavBar from './components/NavBar';
 import Home from './components/Home';
-import endpoints from './constants/endpoints';
 
 function MainApp() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch(endpoints.routes, {
+    fetch('profile/routes.json', {
       method: 'GET',
     })
       .then((res) => res.json())
