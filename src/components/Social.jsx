@@ -1,4 +1,4 @@
-import { useEffect, useState, useContext } from 'react';
+import { useContext } from 'react';
 import { SocialIcon } from 'react-social-icons';
 import { ThemeContext } from 'styled-components';
 
@@ -12,16 +12,18 @@ const styles = {
 
 function Social() {
   const theme = useContext(ThemeContext);
-  const [data, setData] = useState(null);
-
-  useEffect(() => {
-    fetch('profile/social.json', {
-      method: 'GET',
-    })
-      .then((res) => res.json())
-      .then((res) => setData(res))
-      .catch((err) => err);
-  }, []);
+  const data = {
+    "social": [
+      {
+        "network" : "github",
+        "href": "https://github.com/virophagesp"
+      },
+      {
+        "network" : "email",
+        "href": "mailto:jose.berger77777@gmail.com"
+      }
+    ]
+  };
 
   return (
     <div className="social">
