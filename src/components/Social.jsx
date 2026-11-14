@@ -1,5 +1,7 @@
 import { useContext } from 'react';
-import { SocialIcon } from 'react-social-icons';
+import { SocialIcon } from 'react-social-icons/component';
+import 'react-social-icons/github'
+import 'react-social-icons/email'
 import { ThemeContext } from 'styled-components';
 
 const styles = {
