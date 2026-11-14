@@ -1,20 +1,12 @@
 {
     "social": [
         {
-            "network" : "linkedin",
-            "href": "https://linkedin.com/"
-        },
-        {
             "network" : "github",
-            "href": "https://github.com/mayankagarwal09"
-        },
-        {
-            "network" : "leetcode",
-            "href": "https://leetcode.com/"
+            "href": "https://github.com/virophagesp"
         },
         {
             "network" : "email",
-            "href": "mailto:test@test.com"
+            "href": "mailto:jose.berger77777@gmail.com"
         }
     ]
 }
