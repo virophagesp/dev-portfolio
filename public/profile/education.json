@@ -1,19 +1,20 @@
 {
     "education":[
         {
-            "title": "Jun 20XX - Jun 20YY",
+            "title": "March 2026 - still going",
             "cardTitle": "B.Tech, Computer Science",
-            "cardSubtitle":"XYZ University, City",
-            "cardDetailedText": "CGPA - 9.5",
+            "cardSubtitle":"Waikato University, Tauranga",
             "icon" : {
-                "src": "images/education/lorem-ipsum.png"
+                "src": "images/education/waikato.png"
             }
         },
         {
-            "title": "Apr 20XX",
+            "title": "January 2024 - December 2025",
             "cardTitle": "High School",
-            "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%"
+            "cardSubtitle":"Otumoetai College, Tauranga",
+            "icon" : {
+                "src": "images/education/otumoetai.jpg"
+            }
         }
     ]
 }
